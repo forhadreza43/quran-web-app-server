@@ -10,7 +10,6 @@ import { surahRouter } from './routes/surah.routes.js';
 import { ayahRouter } from './routes/ayah.routes.js';
 import { audioRouter } from './routes/audio.routes.js';
 import { searchRouter } from './routes/search.routes.js';
-// import { app } from "../dist/app.js";
 export const app = express();
 
 app.disable('x-powered-by');
